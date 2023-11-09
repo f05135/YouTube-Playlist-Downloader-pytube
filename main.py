@@ -115,7 +115,7 @@ def download_video(video, index, playlist_url):
 
 if __name__ == "__main__":
     try:
-        playlist_url = r"https://www.youtube.com/playlist?list=PLEfwqyY2ox84iIVoCHP8JjObsXQtVjh2k" # Insert here the playlist URL link
+        playlist_url = r"https://www.youtube.com/playlist?list=" # Insert here the playlist URL link
         playlist = Playlist(playlist_url)
         
         create_videos_folder(playlist_url)
